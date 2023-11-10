@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="icon"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+    <defs>
+        <radialGradient id="radial-gradient" cx="-160.44268" cy="547.52801" fx="-160.44268" fy="547.52801" r="1" gradientTransform="translate(-33758.30674 9909.60721) rotate(90) scale(61.7143 -61.7143)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#000"/>
+            <stop offset="1" stop-color="#000"/>
+        </radialGradient>
+        <linearGradient id="linear-gradient" x1="16.58716" y1="294.35056" x2="27.08716" y2="274.85056" gradientTransform="translate(0 297.72671) scale(1 -1)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#000"/>
+            <stop offset="1" stop-color="#000" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+    <path d="M32,8h0c13.25484,0,24,10.74516,24,24h0c0,13.25484-10.74516,24-24,24h0c-13.25484,0-24-10.74516-24-24h0c0-13.25484,10.74516-24,24-24Z" fill="#fff"/>
+    <path d="M32,8.5h0c12.97869,0,23.5,10.52131,23.5,23.5h0c0,12.97869-10.52131,23.5-23.5,23.5h0c-12.97869,0-23.5-10.52131-23.5-23.5h0c0-12.97869,10.52131-23.5,23.5-23.5Z" fill="none" stroke="url(#radial-gradient)" stroke-opacity=".15"/>
+    <path d="M32,8.5h0c12.97869,0,23.5,10.52131,23.5,23.5h0c0,12.97869-10.52131,23.5-23.5,23.5h0c-12.97869,0-23.5-10.52131-23.5-23.5h0c0-12.97869,10.52131-23.5,23.5-23.5Z" fill="none" stroke="url(#linear-gradient)" stroke-opacity=".5"/>
+    <path d="M32,.5h0c17.39697,0,31.5,14.10303,31.5,31.5h0c0,17.39697-14.10303,31.5-31.5,31.5h0C14.60303,63.5,.5,49.39697,.5,32H.5C.5,14.60303,14.60303,.5,32,.5Z" fill="none" stroke="rgba(0,0,0,.1)"/>
+    <path d="M40.75,33.875h-2.5v-2.5h-1.25v5.625h-10v-10l5.625-.00056v-1.24944h-2.5v-2.5h-1.25v2.5h-1.875c-.69007,.00069-1.24931,.55993-1.25,1.25v1.875h-2.5v1.25h2.5v3.75h-2.5v1.25h2.5v1.875c.00079,.69003,.55997,1.24921,1.25,1.25h1.875v2.5h1.25v-2.5h3.75v2.5h1.25v-2.5h1.875c.68997-.00093,1.24907-.56003,1.25-1.25v-1.875h2.5v-1.25Z"/>
+    <path d="M35.125,35.125h-6.25v-6.25h6.25v6.25Zm-5-1.25h3.75v-3.75h-3.75v3.75Z"/>
+    <path d="M41.375,30.125h-1.25c-.00403-3.45011-2.79989-6.24597-6.25-6.25v-1.25c4.14026,.00451,7.49549,3.35973,7.5,7.5Z"/>
+    <path d="M38.25,30.125h-1.25c-.00203-1.72505-1.39995-3.12297-3.125-3.125v-1.25c2.41503,.00293,4.37207,1.95997,4.375,4.375Z"/>
+    <rect id="_Transparent_Rectangle_" x="22" y="22" width="20" height="20" fill="none"/>
+</svg>

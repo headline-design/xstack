@@ -1,0 +1,16 @@
+{
+  "index": {
+    "title": "Quickstart"
+  },
+  "getting-started": "Getting Started",
+  "core-concepts": "Core Concepts",
+  "reference": "API Reference",
+  "troubleshooting": "Troubleshooting",
+  "changelog": {
+    "title": "Changelog",
+    "href": "https://github.com/headline-design",
+    "newWindow": true
+  },
+  "acknowledgements": "Acknowledgements",
+  "faq": "FAQ"
+}

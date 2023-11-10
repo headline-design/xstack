@@ -1,0 +1,32 @@
+module.exports = {
+  extends: ["next", "turbo", "prettier"],
+  rules: {
+    "@next/next/no-html-link-for-pages": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/no-namespace": "off",
+    "@typescript-eslint/skipLibCheck": "off",
+    "turbo/no-undeclared-env-vars": "warn",
+    "no-console": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/display-name": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-filename-extension": "off",
+    "react/no-unescaped-entities": "off",
+    "react/no-children-prop": "off",
+    "no-alert": "off",
+    "no-restricted-syntax": "off",
+    "no-void": "off",
+    "no-underscore-dangle": "off",
+    "react/jsx-no-comment-textnodes": "off",
+    "no-undef": "off",
+  },
+  parserOptions: {
+    babelOptions: {
+      presets: [require.resolve("next/babel")],
+    },
+  },
+};

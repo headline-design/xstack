@@ -1,0 +1,18 @@
+{
+  "speed": {
+    "1000": {
+      "xspace": 1.500000,
+      "webflow": 3.70000000,
+      "squarespace": 2.2000000,
+      "wordpress": 3.1000000
+    }
+  },
+  "size": {
+    "1000": {
+      "xspace": 1.800000,
+      "webflow": 4.90000000,
+      "squarespace": 2.7000000,
+      "wordpress": 3.1000000
+    }
+  }
+}

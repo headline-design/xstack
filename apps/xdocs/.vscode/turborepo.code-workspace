@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "name": "xstack",
+      "path": "../"
+    },
+    {
+      "path": "../packages/eslint-plugin-turbo"
+    }
+  ]
+}

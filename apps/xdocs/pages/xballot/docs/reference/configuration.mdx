@@ -1,0 +1,73 @@
+---
+title: XBallot API
+description: Learn how to interact with XBallot through its API.
+---
+
+import Callout from "../../../../components/Callout";
+import Link from 'next/link'
+
+# XBallot API
+
+You can interact with XBallot by using its API. Below are the available endpoints and their descriptions.
+
+## Profiles
+
+API Endpoints For Managing Profiles
+
+`GET /v1/profiles/{profileId}`: Get a profile by its profileId.
+
+### Parameters
+
+- `profileId` (path) - ID of the profile to get
+
+### Responses
+
+- 200: Returns a single profile
+- 404: Profile not found
+- 500: An error occurred
+
+`GET /v1/profiles`: Get all profiles.
+
+### Parameters
+
+- No parameters
+
+### Responses
+
+- 200: Returns a list of profiles
+- 500: An error occurred
+
+## Primes
+
+API Endpoints For Managing Primes
+
+`GET /v1/primes/{address}`: Get a prime by its address.
+
+### Parameters
+
+- `address` (path) - Numeric address of the prime to get
+
+### Responses
+
+- 200: Returns a single prime
+- 404: Prime not found
+- 500: An error occurred
+
+`GET /v1/primes`: Get all primes.
+
+### Parameters
+
+- No parameters
+
+### Responses
+
+- 200: Returns a list of primes
+- 500: An error occurred
+
+... and so on for the rest of the API endpoints.
+
+<Callout type="info">
+  For more information about the schema of returned data, please refer to the relevant section in our API documentation.
+</Callout>
+
+Learn more about [XBallot schemas](your-link-here).

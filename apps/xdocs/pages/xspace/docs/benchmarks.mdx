@@ -1,0 +1,34 @@
+---
+title: Benchmarks
+description: Explore these banchmarks.
+---
+
+# Website Builders Testing Methodology
+
+In this project, we're comparing the performance of different website builders including XSpace, WebFlow, Squarespace, and WordPress. Our focus is on two key speed metrics: First Contentful Paint (FCP) and Largest Contentful Paint (LCP).
+
+## Metrics
+
+- **First Contentful Paint (FCP)**: This measures the time from when the page starts loading to when any part of the page's content is rendered on the screen. For more details, check [MDN's explanation](https://developer.mozilla.org/en-US/docs/Glossary/First_contentful_paint).
+
+- **Largest Contentful Paint (LCP)**: This measures the time from when the page starts loading to when the largest text block or image element is rendered on the screen. For more details, check [MDN's explanation](https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint).
+
+## Tools Used
+
+- **PageSpeed Insights**: Google's PageSpeed Insights is the primary tool we use to measure these metrics. PageSpeed Insights provides a set of speed metrics collected from real-world users and lab data.
+
+## Testing Procedure
+
+1. **Selection of Pages**: We select a number of pages built using each of these website builders. It's important to include a variety of pages (homepage, blog page, contact page, etc.) to ensure a comprehensive comparison.
+
+2. **Run Tests**: For each selected page, we run PageSpeed Insights and record the FCP and LCP values. This should be done several times at different periods of the day to account for potential variability in server load.
+
+3. **Average the Results**: For each website builder, we calculate the average FCP and LCP across all tested pages.
+
+4. **Comparison**: We compare the average FCP and LCP of each website builder. This comparison is visualized in the `BenchmarksGraph` component.
+
+## Caveats
+
+It's important to note that while these metrics provide a good indication of performance, they do not capture the full user experience. Other factors like server location, user's network conditions, and more also play a crucial role in the real-world performance of a website.
+
+Also, referenced benchmarks are based on PageSpeed Insights at time of testing. XSpace is currently in POC stage and XSpace data is broadly based on current comparable models.
