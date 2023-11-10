@@ -8,4 +8,3 @@ You can access the documentation for both XBallot and Xspace at the following UR
 
 - XBallot Documentation: [xstack.build/xballot](https://xstack.build/xballot)
 - Xspace Documentation: [xstack.build/xspace](https://xstack.build/xspace)
-
