@@ -6,6 +6,6 @@ Welcome to the official documentation repository for XBallot, a DAO management p
 
 You can access the documentation for both XBallot and Xspace at the following URLs:
 
-- xballot Documentation: [xstack.build/xballot](https://xstack.build/xballot)
-- xspace Documentation: [xstack.build/xspace](https://xstack.build/xspace)
+- XBallot Documentation: [xstack.build/xballot](https://xstack.build/xballot)
+- Xspace Documentation: [xstack.build/xspace](https://xstack.build/xspace)
 
